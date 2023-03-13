@@ -16,7 +16,7 @@
 #include "event/Loop.hxx"
 #include "io/FileDescriptor.hxx"
 
-#include <attr/xattr.h>
+#include <sys/xattr.h>
 
 #include <assert.h>
 #include <stdlib.h>

@@ -10,7 +10,7 @@
 #include "util/Base32.hxx"
 #include "AllocatorPtr.hxx"
 
-#include <attr/xattr.h>
+#include <sys/xattr.h>
 
 #include <assert.h>
 #include <sys/stat.h>
